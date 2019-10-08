@@ -8,10 +8,10 @@ public class GumBallMachine {
   private int count = 0;
 
   public GumBallMachine(int numberGumBalls) {
-      soldOutState = new SoldOutState(this);
+      soldState = new SoldState(this);
       noQuarterState = new NoQuarterState(this);
       hasQuarterState = new HasQuarterState(this);
-      soldState = new SoldState();
+      soldOutState = new SoldOutState();
 
       this.count = numberGumBalls;
       if (this.count > 0) {

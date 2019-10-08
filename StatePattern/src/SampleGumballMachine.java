@@ -7,5 +7,6 @@ public class SampleGumballMachine {
     gumBallMachine.dispense();
 
     gumBallMachine.insertQuater();
+    gumBallMachine.ejectQuarter();
 }
 }
